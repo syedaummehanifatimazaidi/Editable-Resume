@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.resume {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.editable {
+    padding: 10px;
+    border: 1px dashed transparent;
+    transition: border-color 0.3s;
+}
+
+.editable:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
